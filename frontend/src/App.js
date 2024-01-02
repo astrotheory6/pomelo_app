@@ -27,7 +27,7 @@ function App() {
 
         <img src={'https://pngimg.com/d/credit_card_PNG204.png'} className="App-logo" alt="logo" />
 
-        <p>Summary:</p>
+        <p className="summary">Summary:</p>
         <p className="display-linebreak" >{data}</p>
 
       </header>

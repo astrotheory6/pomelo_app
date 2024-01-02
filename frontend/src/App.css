@@ -1,5 +1,8 @@
+
 .App {
+  background-color: #a32323; /* Replace with your desired color */
   text-align: center;
+
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ee6a2c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,7 +40,20 @@
   }
 }
 
+.summary {
+  font-family: "Lucida Console", monospace;
+  color: white; 
+  font-size: 32px;
+  font-weight: bold; /* Add this line to make the text bold */
+
+}
+
+
 .display-linebreak {
   white-space: pre-line;
-  font-family: 'Candara', sans-serif;
+  font-family: "Lucida Console", monospace;
+  color: #333; 
+  font-size: 32px;
+  font-weight: bold;
+
 }
