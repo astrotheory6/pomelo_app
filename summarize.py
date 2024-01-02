@@ -150,7 +150,3 @@ def summarize(inputJSON):
     summary = summary.strip()
     return summary
 
-
-f = open('ex.json')
-data = json.load(f)
-print(summarize(data))
