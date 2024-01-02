@@ -14,7 +14,6 @@ def get_data():
     try:
         with open('ex.json', 'r') as file:
             inputJSON = json.load(file)
-            print(inputJSON)
             summary = summarize(inputJSON)
             result = {'message': summary}
             return jsonify(result)

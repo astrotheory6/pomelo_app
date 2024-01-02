@@ -23,9 +23,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+
+        <img src={'https://pngimg.com/d/credit_card_PNG204.png'} className="App-logo" alt="logo" />
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Credit card stats.
         </p>
         <a
           className="App-link"
@@ -36,7 +39,8 @@ function App() {
           Learn React
         </a>
 
-        <p>Data from Python script: {data}</p>
+        <p>Stats:</p>
+        <p className="display-linebreak" >{data}</p>
 
       </header>
     </div>

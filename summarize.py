@@ -123,8 +123,8 @@ def summarize(inputJSON):
     pending_txns = [txn for txn in txns if txn.pending]
     settled_txns = [txn for txn in txns if not txn.pending]
 
-    summary += "Available credit: $" + str(available_credit) + "\n"
-    summary += "Payable balance: $" + str(payable_balance) + "\n" + "\n"
+    summary += "Available credit: \n$" + str(available_credit) + "\n" + "\n"
+    summary += "Payable balance: \n$" + str(payable_balance) + "\n" + "\n"
     summary += "Pending transactions:\n"
 
 
