@@ -27,19 +27,7 @@ function App() {
 
         <img src={'https://pngimg.com/d/credit_card_PNG204.png'} className="App-logo" alt="logo" />
 
-        <p>
-          Credit card stats.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
-        <p>Stats:</p>
+        <p>Summary:</p>
         <p className="display-linebreak" >{data}</p>
 
       </header>
